@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="planets.css"></link> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     
+    </head>
+    <body>
+        <div class="bg-dark">
+        <nav style="position: fixed;top:0; width:100%" class="navbar navbar-expand-lg navbar-dark bg-dark fixed">
+            <div class="d-flex flex-row">
+            <a class="navbar-brand" href="#"><img src="https://cdn.wallpapersafari.com/45/43/nWKNt3.png" class="image-styling"/></a>
+            <p><span>SOLAR SYSTEM<br/>EXPLORATION</span></p>
+        </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                
+              
+                <li class="nav-item dropdown">
+                  <a style="font-weight: bold; color:white" class="d-flex flex-row justify-content-between nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Solar System
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Our Solar System</a>
+                    <a class="dropdown-item  nav-style text-primary" style="font-weight: bold;" href="#">Sun</a>
+                    <a class="dropdown-item  nav-style text-primary" style="font-weight: bold;" href="#">Kuper Belt</a>
+                    <a class="dropdown-item  nav-style text-primary" style="font-weight: bold;" href="#">Oort Cloud</a>
+                    <a class="dropdown-item  nav-style text-primary" style="font-weight: bold;" href="#">Beyond Our Solar System</a>  
+                    <a class="dropdown-item  nav-style text-primary" style="font-weight: bold;" href="#">Eclipses</a>
+                   
+                </li>
+                <li class="nav-item dropdown">
+                    <a style="font-weight: bold; color:white"  class="d-flex flex-row justify-content-between nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Planets
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item  text-primary" style="font-weight: bold;" href="#">About Planets</a>
+                      <a class="dropdown-item" style="font-weight: bold; color: #9a9b9c;" href="#">Planets</a>
+                      <div class="d-flex flex-row justify-content-between">
+                        <a class="dropdown-item  text-primary" style="font-weight: bold;" href="#">Mercury</a>
+                        <a class="dropdown-item text-primary" style="font-weight: bold;" href="#">Jupiter</a>
+                      </div>
+                      <div  class="d-flex flex-row justify-content-between">
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" style="font-weight: bold;" href="#">Venus</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Saturn</a>
+                      </div>
+                      <div  class="d-flex flex-row justify-content-between">
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Earth</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Uranus</a>
+                      </div>
+                     
+                      <div  class="d-flex flex-row justify-content-between">
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Mars</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Neptune</a>
+                      </div>
+                      <a class="dropdown-item nav-style" style="font-weight: bold; color: #9a9b9c;" href="#">Dwarf PLANETS</a>
+                     
+                      <div  class="d-flex flex-row justify-content-between">
+                        <a class="dropdown-item nav-style  text-primary" style="font-weight: bold;" href="#">Pluto</a>
+                        <a class="dropdown-item nav-style  text-primary" style="font-weight: bold;" href="#">Haumea</a>
+                      </div>
+                     
+                        
+                      <div  class="d-flex flex-row justify-content-between">
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Ceres</a>
+                        <a class="dropdown-item nav-style  text-primary" style="font-weight: bold;" href="#">Eris</a>
+                      </div>
+                      <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Makemake</a>
+                      <a class="dropdown-item nav-style" style="font-weight: bold; color:#9a9b9c;" href="#">HYPOTHETICAL</a>
+                      <a class="text-primary dropdown-item nav-style" style="font-weight: bold;" href="#">Planet X</a>
+                     
+
+                  </li>
+                 
+                  <li class="nav-item dropdown">
+                     
+                
+                    <a style="font-weight: bold; color:white" class="d-flex flex-row justify-content-between nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Moons
+                      </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item text-primary" style="font-weight: bold;" href="#">About Moons</a>
+                      <a class="dropdown-item" href="#" style="font-weight: bold; color: #9a9b9c;">BY DESTINATION</a>
+                      <div  class="d-flex flex-row justify-content-between">
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Earth (1)</a>
+                        <a class="dropdown-item nav-style  text-primary" style="font-weight: bold;" href="#">Uranus (27)</a>
+                      </div>
+                      <div  class="d-flex flex-row justify-content-between">
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Mars (2)</a>
+                        <a class="dropdown-item nav-style  text-primary" style="font-weight: bold;" href="#">Neptune (14)</a>
+                      </div>
+                      <div  class="d-flex flex-row justify-content-between">
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Jupiter (80)</a>
+                        <a class="dropdown-item nav-style  text-primary" style="font-weight: bold;" href="#">Pluto (5)</a>
+                      </div>
+                      <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Saturn (83)</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a style="font-weight: bold; color:white" class="d-flex flex-row justify-content-between nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">News</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Whats's Up:Skywatching Tips from NASA</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Resources</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Raw Images</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">People</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Missions</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Kids</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Interactives</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Basics of Space Flight</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#"> Solar System Ambassadors</a>
+                        <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">Resource Packages</a>
+
+                      <a class="dropdown-item nav-style text-primary" style="font-weight: bold;" href="#">NASA HEAT</a>                      
+                  </li>                  
+           </ul>
+            </div>
+          </nav>   
+          </div>
+
+
+
+
+
+         <div class="bg pt-5 pb-5">
+          <h1 class="heading pt-5">Planets in Our Solar System</h1>
+          <div class="d-flex flex-row justify-content-center">
+            <button onclick="display('sectionprimary')" class="btn-styling">Primary</button>
+            <button onclick="display('sectiondwarf')" class="btn-styling">Dwarf</button>
+            <button onclick="display('sectionhypothetical')" class="btn-styling">Hypothetical</button>
+          
+          </div>
+          <div id="sectionprimary">
+          <div>
+            <img src="http://dreamicus.com/data/mercury/mercury-02.jpg" class="image mt-5"/>
+           </div>
+            <div class="bg-dark box">
+                <h1 class="box-heading">Mercury</h1>
+                <p class="box-para">Mercury the smallest planet in our solar system and closest to the sun is only slightly larger than Earth's Moon.Mercury is the fastest planet,zipping around the sun every 88 Earth days.</p>
+
+            
+          </div>
+          <div>
+            <img src="http://d1jqu7g1y74ds1.cloudfront.net/wp-content/uploads/2012/04/Venus-imaged-by-Magellan.jpg" class="image mt-5"/>
+           </div>
+            <div class="bg-dark box">
+                <h1 class="box-heading">Venus</h1>
+                <p class="box-para">Venus spins slowly in the opposite dirction from most planets.A thick atmosphere traps heat in a runaway greenhouse effect,making it the hottest planet in our solar-system.</p>
+
+            
+          </div>
+          <div>
+            <img src="https://blogs.nasa.gov/dscovr/wp-content/uploads/sites/244/2015/02/earth-fulldisc.jpg" class="image mt5"/>
+           </div>
+            <div class="bg-dark box">
+                <h1 class="box-heading">Earth</h1>
+                <p class="box-para">Earth our home planet is the only place we know of so far that's inhabited by living things.It's also the only planet in our solar system with liquid  water on the surface.</p>
+
+            
+          </div>
+          <div>
+            <img src="https://wallpapercave.com/wp/wp2305581.jpg" class="image mt-5"/>
+           </div>
+            <div class="bg-dark box">
+                <h1 class="box-heading">Mars</h1>
+                <p class="box-para">Mars is a dusty,cold,desert world with a very thin atmosphere.There is strong evidence Mars was - billions of billions of years ago - wetter and warmer,with a thicker atmosphere.</p>
+
+            
+          </div>
+          <div>
+            <img src="https://3.bp.blogspot.com/-JzB2ruOjBOs/WJy8tR_tJSI/AAAAAAAABdA/26gANOQ4Y4IZyMnEGS2L8X-dvhVhGL0ZQCLcB/s1600/jupiter_HD.jpg" class="image mt-5"/>
+           </div>
+            <div class="bg-dark box">
+                <h1 class="box-heading">Jupitar</h1>
+                <p class="box-para">Jupitar is more than twice as massive than the other planets of our solar system combined.The giant planet's Great Red spot is a Centuries-old storm bigger than Earth.</combined></p>
+
+            
+          </div>
+          <div>
+            <img src="https://images.immediate.co.uk/production/volatile/sites/25/2019/10/Hubble-Saturn-f74bbab.jpg?quality=45&resize=2000,1198" class="image mt-5"/>
+           </div>
+            <div class="bg-dark box">
+                <h1 class="box-heading">Saturn</h1>
+                <p class="box-para">Adorned with  dazziling,complex system of icy rings,Saturn is unique in our solar system.The other giant plants have rings,but none are as spectacular as Saturn's.</p>
+
+            
+          </div>
+          <div>
+            <img src="https://solarstory.net/img/articles/big/planet-uranus-by-voyager-2-in-1986.jpg" class="image mt-5"/>
+           </div>
+            <div class="bg-dark box">
+                <h1 class="box-heading">Uranus</h1>
+                <p class="box-para">Uranus seventh planet at a nerly 90-degree angle from the plane of its orbit.This unique tilt maks uranus appear to spin on it side.</p>
+            
+          </div>
+          <div>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a43529a6-5439-4e46-b973-e272e62c2e6c/d6omt6u-dd68de80-97b5-4c34-8804-0f323592494c.jpg/v1/fill/w_1280,h_1280,q_75,strp/neptune_stock_image_by_uxmal750ad-d6omt6u.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9hNDM1MjlhNi01NDM5LTRlNDYtYjk3My1lMjcyZTYyYzJlNmMvZDZvbXQ2dS1kZDY4ZGU4MC05N2I1LTRjMzQtODgwNC0wZjMyMzU5MjQ5NGMuanBnIiwid2lkdGgiOiI8PTEyODAiLCJoZWlnaHQiOiI8PTEyODAifV1dfQ.s5LUW51X0l_oVaDpK5Lc27p09J36f1DXJF-zko6XDHk" class="image mt-5"/>
+           </div>
+            <div class="bg-dark box mb-3">
+                <h1 class="box-heading">Neptune</h1>
+                <p class="box-para">Neptune the eighth and most distant major planet orbiting our Sun is dark,cold and whipped by supersonic winds.It was the first planet located through mathematical calculations.</p>
+
+</div>
+</div>
+
+
+
+
+
+
+<div id="sectiondwarf">
+  <div>
+    <img src="https://i.redd.it/td578mpzj6e11.jpg" class="image mt-5"/>
+   </div>
+  <div class="bg-dark box mb-3">
+    <h1 class="box-heading">Pluto</h1>
+    <p class="box-para">Pluto is a complex world of ice mountains and frozen plains.Once considered the ninth planet,Pluto is the best known of a new class of worlds called dwarf planets.</p>
+</div>
+<div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Ceres_-_RC3_-_Haulani_Crater_(22381131691).jpg" class="image mt-5"/>
+ </div>
+<div class="bg-dark box mb-3">
+  <h1 class="box-heading">Ceres</h1>
+  <p class="box-para">Ceres makes up almost a third of the asteroid belt's total mass,but it is still far smaller than art's Moon.Ceres is heavily crateres with large amounts of ice underground.</p>
+</div>
+<div>
+  <img src="https://nineplanets.org/wp-content/uploads/2020/11/makemake-1.jpg" class="image mt-5"/>
+ </div>
+<div class="bg-dark box mb-3">
+  <h1 class="box-heading">Makemake</h1>
+  <p class="box-para">It takes 310 Earth years for Makemake to complete one orbit around our sun.</p>
+
+</div>
+  <div>
+    <img src="https://images2.minutemediacdn.com/image/upload/c_fit,f_auto,fl_lossy,q_auto,w_728/v1555470158/shape/mentalfloss/519236-wikipedia-haumea_rotation_0.gif" class="image mt-5"/>
+   </div>
+   <div class="bg-dark box mb-3">
+    <h1 class="box-heading">Haumea</h1>
+  <p class="box-para">Haumea is one of th fastestt rotating large objects in our solar system.</p>
+</div>
+<div>
+  <img src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1554735942/shape/mentalfloss/552085-eso1142a.jpg?itok=CmB8R8F4" class="image mt-5"/>
+ </div>
+<div class="bg-dark box mb-3">
+  <h1 class="box-heading">Eris</h1>
+  <p class="box-para">Eris is one of the largest known dwarf planets in our solar system.It's about the same size as Pluto,but it is three tims farther from Sun.One orbit takes about 557 years.</p>
+
+</div>
+</div>
+<div id="sectionhypothetical">
+  <div>
+    <img src="https://cdn.pixabay.com/photo/2023/02/13/14/35/space-7787498__480.jpg" class="image mt-5"/>
+   </div>
+   <div class="bg-dark box mb-3">
+    <h1 class="box-heading">Planet X</h1>
+  <p class="box-para">Caltech researches have found evidence suggesting there may be a "Planet X" deep in the solar system.</p>
+</div>
+
+</div>
+
+
+</div>
+
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+ </body>
+</html>
